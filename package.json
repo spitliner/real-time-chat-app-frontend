@@ -11,34 +11,33 @@
   },
   "dependencies": {
     "@nextui-org/react": "^2.2.9",
-    "framer-motion": "^10.18.0",
-    "next": "14.0.4",
+    "framer-motion": "^11.0.3",
+    "next": "14.1.0",
     "react": "^18",
-    "react-dom": "^18",
-    "socket.io-client": "^4.7.3"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
-    "eslint-config-next": "14.0.4",
+    "eslint-config-next": "^14.1.0",
+    "eslint-config-xo-react": "^0.27.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
     "postcss": "^8",
     "tailwindcss": "^3.3.0",
     "typescript": "^5",
-    "webpack": "^5.89.0",
     "xo": "^0.56.0"
   },
   "xo": {
-    "extend": "next/core-web-vitals",
+    "extend": ["next/core-web-vitals", "xo-react"],
     "space": 4,
     "rules": {
       "capitalized-comments": "off",
       "yoda": "off",
       "no-constant-binary-expression": 2
     },
-    "ignores": [
-      
-    ]
+    "ignores": []
   }
 }
